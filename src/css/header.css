@@ -52,7 +52,6 @@
     justify-content: center;
     background-color: #141414;
     border: transparent;
-    cursor: pointer;
 }
 
 /* ------------------------Mobile menu------------------------ */
@@ -90,7 +89,6 @@
     justify-content: center;
     align-items: center;
     background-color: #1E2827;
-    cursor: pointer;
     border: transparent;
 
 }
