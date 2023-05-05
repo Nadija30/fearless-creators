@@ -1,11 +1,128 @@
 .catalog .container {
   width: 100%;
   max-width: 375px;
-  padding: 0 20;
-  background-color: #b95f5f;
+  padding: 0 20px;
+  background-color: #fbfbfb;
   margin: 0 auto;
 }
 
-.catalog__list {
-  background-color: #56776c;
+.catalog__tittle {
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  letter-spacing: -0.02em;
+  color: #1E2827;
+  margin-bottom: 40px;
 }
+
+.catalog__list {
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.catalog__list-img {
+  margin: 0 auto 57px auto;
+}
+
+.catalog__list-model {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.catalog__list-price {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.catalog__btn {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #1E2827;
+  border-radius: 8px;
+  width: 108px;
+  height: 42px;
+  display: block;
+  margin-left: auto;
+}
+
+.catalog__list-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.catalog__list-item:hover .catalog__overlay {
+  transform: translateY(0);
+}
+
+.catalog__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #1e2827ef;
+  border-radius: 8px;
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in;
+  
+}
+
+.catalog__overlay-tittle {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  
+}
+
+.catalog__overlay-text {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 14px;
+  width: 192px;
+}
+
+.catalog__overlay-text-second {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  width: 162px;
+}
+
+@media screen and (max-width: 1279px) {
+  .catalog__list-item:nth-child(n+9) {
+    display: none;
+  }
+}
+
