@@ -16,27 +16,6 @@
   }
 }
 
-.new-watches-container {
-  width: 100%;
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .new-watches-container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .new-watches-container {
-    max-width: 1280px;
-    padding: 0 52px;
-  }
-}
-
 .new-watches-title {
   font-size: 12px;
   font-weight: 300;
