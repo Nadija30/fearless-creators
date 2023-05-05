@@ -1,0 +1,141 @@
+.about-us-gif {
+    width: 335px;
+    height: 365px;
+}
+
+.about-us-text-div {
+    
+}
+
+.about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-us-div-nophoto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+
+}
+
+.about-us-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+}
+
+.about-us-text-gap {
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+    margin-bottom: 20px;
+}
+
+.about-us-text-2 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.28;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-div-nophoto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 704px;
+
+    }
+
+    .about-us {
+        padding-top: 64px;
+        padding-bottom: 40px;
+    }
+
+    .about-us-title {
+        margin-right: 40px;
+    }
+
+    .about-us-text {
+        width: 220px;
+        letter-spacing: -0.02em;
+        margin: 0;
+
+    }
+
+    .about-us-text-2 {
+        width: 250px;
+        letter-spacing: -0.02em;
+    }
+
+    .about-us-p-div {
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .about-us-gif {
+        width: 704px;
+        height: 465px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-div {
+        display: flex;
+    }
+
+    .about-us-div-nophoto {
+        display: flex;
+        width: 1176px;
+    }
+
+    .about-us-title {
+        margin-right: 110px;
+    }
+
+    .about-us-p-div {
+        width: 859px;
+    }
+
+    .about-us-text {
+        width: 439px;
+    }
+
+    .about-us-text-2 {
+        width: 380px;
+    }
+
+    .about-us-gif {
+        width: 892px;
+        height: 500px;
+    }
+
+    .about-us-p-div {
+        gap: 40px;
+    }
+
+    .about-us-gif-div {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about-us-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .about-us {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
