@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 .footer-logo {
     margin-bottom: 40px;
@@ -87,17 +88,16 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: -0.02em;
-margin-top: 80px;
 color: #C6CDD1;
 opacity: 0.9;
 }
 
-.footer-copiright-text {
-    margin-bottom: 14px;
-}
-
 .footer-policy {
     margin-right: 14px;
+}
+
+.footer-copiright-text {
+    margin-bottom: 14px;
 }
 
 
@@ -113,6 +113,7 @@ opacity: 0.9;
 
   .footer-wrapper {
     flex-wrap: nowrap;
+    margin-bottom: 152px;
   }
 
   .footer-logo {
@@ -134,17 +135,16 @@ opacity: 0.9;
   }
 
   .footer-copiright {
-    margin-top: 152px;
     display: flex;
-  }
-
-  .footer-copiright-text {
-    margin-right: 200px;
-    margin-bottom: 0;
+    justify-content: space-between;
   }
 
   .footer-policy {
-    margin-right: 18px;
+    margin-right: 0;
+  }
+
+  .footer-copiright-text {
+    margin-bottom: 0;
   }
 
 }
@@ -160,17 +160,8 @@ opacity: 0.9;
     padding-bottom: 20px;
   }
 
-  .footer-nav {
-    margin-left: 355px;
-    margin-right: 367px;
-  }
-
-  .footer-copiright {
-    margin-top: 174px;
-  }
-
-  .footer-copiright-text {
-    margin-right: 680px;
+  .footer-wrapper {
+    margin-bottom: 174px;
   }
 
 }
