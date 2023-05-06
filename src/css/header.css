@@ -23,9 +23,15 @@
     gap: 4px;
 }
 
-.logo-img {
+.header-logo-link {
+    display: inline-block;
     width: 19px;
     height: 19px;
+}
+
+.logo-img {
+    /* width: 19px;
+    height: 19px; */
 }
 
 .header-logo-text {
