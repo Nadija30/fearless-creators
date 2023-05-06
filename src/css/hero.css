@@ -1,0 +1,237 @@
+.hero-section {
+    background-color: #141414;
+}
+
+.hero-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media screen and (min-width:768px) {
+    .hero-container {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.03;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+@media screen and (min-width:768px) {
+    .hero-title {
+        font-size: 60px;
+        max-width: 653px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-title {
+        max-width: 750px;
+        order: -2;
+        margin-bottom: 0;
+    }
+}
+.hero-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-left: 87px;
+    margin-bottom: 40px;
+}
+@media screen and (min-width:768px) {
+    .hero-text {
+        margin-left: 20px;
+        margin-bottom: 0;
+        max-width: 248px;
+        height: 255px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-text {
+        order: -1;
+        align-items: start;
+        height: auto;
+        max-width: 282px;
+        margin-left: 0;
+    }
+}
+.swiper {
+    width: 266px;
+    height: 252px;
+    margin: 0 0 40px 0;
+}
+@media screen and (min-width:768px) {
+    .swiper {
+        width: 436px;
+        height: 315px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .swiper {
+        margin-top: 122px;
+    }
+}
+.slider-number-box {
+    display: flex;
+    position: relative;
+    bottom: -34px;
+    left: 192px;
+    color: #FFFFFF;
+    width: 74px;
+    justify-content: space-between;
+}
+@media screen and (min-width:768px) {
+    .slider-number-box {
+        bottom: -42px;
+        left: 354px;
+        width: 82px;
+    }
+}
+.slider-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+}
+
+.first-slider-number::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+@media screen and (min-width:768px) {
+    .first-slider-number::after {
+        width: 40px;
+    }
+}
+.slider-bacground-decor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 51px;
+    width: calc(266px - 74px);
+    background-color: #141414;
+    z-index: 1;
+}
+@media screen and (min-width:768px) {
+    .slider-bacground-decor {
+        height: 59px;
+        width: calc(436px - 82px);
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    margin-top: 0;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+    height: 32px;
+    transform: translateY(calc(-100% - 1px));
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width:768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        height: 40px;
+    }
+}
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 9px;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+@media screen and (min-width:768px) {
+    .swiper-button-prev::before,
+    .swiper-button-next::before {
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 12px;
+    }
+}
+.swiper-button-prev:hover::before,
+.swiper-button-next:hover::before {
+    border: 1px solid #FFFFFF;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #FFFFFF;
+}
+
+.swiper-button-prev {
+    left: 3px;
+}
+
+.swiper-button-next {
+    left: 50px;
+}
+@media screen and (min-width:768px) {
+    .swiper-button-prev {
+        left: 6px;
+    }
+    .swiper-button-next {
+        left: 58px;
+    }
+}
+.hero-photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 335px) {
+    .hero-photo {
+        max-width: 260px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .hero-photo {
+        margin-top: 43px;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
