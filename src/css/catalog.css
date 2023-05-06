@@ -77,8 +77,13 @@
 
 
 
-.catalog__list-item:hover .catalog__overlay {
+.catalog__list-item:hover .catalog__overlay,
+.catalog__list-item:focus .catalog__overlay {
   transform: translateY(0);
+}
+
+.catalog__list-item:focus {
+  outline: none;
 }
 
 .catalog__overlay {
@@ -89,9 +94,9 @@
   padding: 40px;
   position: absolute;
   top: 0;
-  left: 0;
-  transform: translateY(102%);
-  transition: transform 250ms ease-in;
+  left: 0;  
+  transform: translateY(102%);  
+  transition: transform 250ms ease-out;
   
 }
 
@@ -135,6 +140,8 @@
   top: 0;
   left: 0;
   position: fixed;
+  z-index: 100;
+  transition: opacity 300ms linear, visibility 500ms linear;
 }
 
 .catalog__modal {
@@ -147,6 +154,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
   border-radius: 4px;
   box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
 }
@@ -189,6 +197,12 @@
   height: 42px;
   border: 1px solid rgba(20, 20, 20, 0.5);
   border-radius: 8px;
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  letter-spacing: -0.02em;
+  color: #141414;
 }
 
 .catalog__form-list-message {
@@ -197,6 +211,13 @@
   height: 100px;
   border: 1px solid rgba(20, 20, 20, 0.5);
   border-radius: 8px;
+  resize: none;
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  letter-spacing: -0.02em;
+  color: #141414;
 }
 
 .catalog__modal-btn {
@@ -228,10 +249,23 @@
   max-width: 295px;
 }
 
+.catalog__form-list-enter::placeholder,
+.catalog__form-list-message::placeholder {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.catalog__modal-close-svg {
+  width: 24px;
+  height: 24px;
+}
 
 
-
-@media screen and (max-height: 815px) {
+@media screen and (max-height: 815px) and (max-width: 767px) {
   .catalog__modal picture {
     display: none;
   }
