@@ -9,13 +9,8 @@
 }
 
 .header-wrap {
-    outline: 1px solid green;
-    /* width: 100%; */
 
     padding-top: 29px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    /* background-color: #141414; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +21,11 @@
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.logo-img {
+    width: 19px;
+    height: 19px;
 }
 
 .header-logo-text {
@@ -66,8 +66,15 @@
 
     position: fixed;
     top: 0;
+    right: 0;
+
     z-index: 10;
-    background-color: #1E2827
+    background-color: #1E2827;
+    transition: opacity 300ms linear, visibility 300ms linear, right 300ms linear;
+}
+
+.mob-menu.is-hidden {
+    right: -100%;
 }
 
 .mob-menu-wrap {
