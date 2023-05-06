@@ -46,7 +46,7 @@ color: #FFFFFF;
     margin-bottom: 14px;
 }
 
-.address {
+.footer-address {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -55,11 +55,11 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.address-contacts-phone {
+.footer-address-contacts-phone {
     margin-bottom: 20px;
 }
 
-.address-contacts-address {
+.footer-address-contacts-address {
     width: 141px;
 
     letter-spacing: -0.02em;
@@ -108,7 +108,7 @@ opacity: 0.9;
 
 
 @media screen and (min-width: 768px) {
-  .container {
+  .footer-container {
     max-width: 768px;
     padding: 0 32px;
   }
@@ -156,7 +156,7 @@ opacity: 0.9;
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .footer-container {
     max-width: 1280px;
     padding: 0 52px;
   }
