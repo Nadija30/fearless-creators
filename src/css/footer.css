@@ -83,6 +83,8 @@ color: #FFFFFF;
 }
 
 .footer-copiright {
+    display: flex;
+    flex-direction: column;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -135,12 +137,12 @@ opacity: 0.9;
   }
 
   .footer-copiright {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .footer-policy {
-    margin-right: 0;
+    margin-right: 18px;
   }
 
   .footer-copiright-text {
