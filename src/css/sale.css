@@ -1,5 +1,6 @@
 .sale{
-    padding: 80px 0;
+    padding-top: 40px;
+    padding-bottom: 80px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -112,6 +113,11 @@
 /* ========min-width 768px========= */
 
 @media screen and (min-width: 768px) {
+    .sale{
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
+
     .auxiliary-container {
         padding: 0 66px;
     }
@@ -131,6 +137,11 @@
 /* ========min-width 1280px========= */
 
 @media screen and (min-width: 1280px) {
+    .sale {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+
     .sale__information {
         width: 369px;
     }
