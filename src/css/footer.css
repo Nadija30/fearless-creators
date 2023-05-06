@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
   width: 40px;
   height: 40px;
 }
@@ -51,13 +52,16 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.2;
 text-transform: uppercase;
-margin-top: 40px;
 color: #FFFFFF;
+}
+
+.address-contacts-phone {
+    margin-bottom: 20px;
 }
 
 .address-contacts-address {
     width: 141px;
-    margin-top: 20px;
+
     letter-spacing: -0.02em;
 }
 
