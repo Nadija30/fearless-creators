@@ -1,3 +1,7 @@
+.catalog {
+  padding: 40px 0;
+}
+
 .catalog .container {
   width: 100%;
   max-width: 375px;
@@ -227,41 +231,53 @@
 
 
 
-
 @media screen and (max-height: 815px) {
-  .catalog__modal-post-text {
-    display: none;
-  }
-
-  .catalog__form-list-message {
-    height: 70px;
-  }
-}
-
-@media screen and (max-height: 730px) {
   .catalog__modal picture {
     display: none;
   }
 
-  .catalog__list-model,
-  .catalog__list-price {
-    display: none;
+  .catalog__modal {
+    height: 85vh;
+    padding: 40px 20px;
   }
 
   .catalog__form-list-message {
+    height: 50px;
     margin-bottom: 30px;
   }
 
-  .catalog__modal {
-    height: 70vh;
+  .catalog__modal-watch {
+    display: none;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .catalog__modal-post-text {
+    display: none;
   }
 
+  .catalog__modal {
+    height: 98vh;
+    padding: 20px;
+  }
 
+  .catalog__form-list-message {
+    height: 50px;
+    margin-bottom: 0;
+  }
+
+  .catalog__modal-watch {
+    display: none;
+  }
 }
 
-@media screen and (max-height: 375px) {
-
+@media screen and (max-height: 565px) {
+  .catalog__modal-post-text {
+    display: none;
+  }
 }
+
+
 
 @media screen and (max-width: 1279px) {
   .catalog__list-item:nth-child(n+9) {
@@ -270,6 +286,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .catalog {
+    padding: 64px 0;
+  }
+
   .catalog .container {
     max-width: 768px;
     padding: 0 32px;
@@ -280,9 +300,58 @@
     flex-wrap: wrap;
     column-gap: 32px;
   }
+
+  .catalog__modal {
+    display: flex;
+    max-width: 744px;
+    width: 100%;
+    max-height: 670px;
+    height: 100%;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .catalog__form {
+    flex-grow: 1;
+  }
+
+  .catalog__form-list {
+    margin-bottom: 20px;
+  }
+
+  .catalog__form-list-sign {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .catalog__form-list-item:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  .catalog__form-list-message {
+    height: 166px;
+  }
+
+  .catalog__modal-post-text {
+    left: calc(276px + 65px);
+    bottom: 40px;
+  }
+
+  .catalog__modal-watch {
+    display: block;
+  }
+
+  .catalog__modal-post-text {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .catalog {
+    padding: 80px 0;
+  }
+
   .catalog .container {
     max-width: 1280px;
     padding: 0 52px;
@@ -300,5 +369,11 @@
 
   .catalog__list-item {
     width: 276px;
+  }
+
+  .catalog__modal {
+    min-width: 904px;
+    width: 100%;
+    
   }
 }
