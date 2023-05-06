@@ -65,6 +65,7 @@
     border-top: 1px solid #141414;
     padding: 8px 0;
     margin-top: 40px;
+    position: relative;
     /* display: flex;
         flex-direction: row;
         align-items: center;
@@ -76,6 +77,16 @@
         height: 40px;
         left: 0px;
         top: 0px; */
+}
+
+.sale-info-border::after{
+    content: "";
+    width: 16px ;
+    height: 1px;
+    background-color: #141414;
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
 
 .sale__description, .sale__details{
