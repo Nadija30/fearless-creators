@@ -2,12 +2,10 @@
   width: 100%;
   max-width: 375px;
   padding: 0 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   margin: 0 auto;
   background-color: #1e2827;
-}
-.footer {
-    padding-top: 40px;
-    padding-bottom: 20px;
 }
 
 .footer-wrapper {
@@ -111,8 +109,6 @@ opacity: 0.9;
   .footer-container {
     max-width: 768px;
     padding: 0 32px;
-  }
-  .footer {
     padding-top: 80px;
     padding-bottom: 20px;
   }
@@ -159,9 +155,6 @@ opacity: 0.9;
   .footer-container {
     max-width: 1280px;
     padding: 0 52px;
-  }
-
-  .footer {
     padding-top: 104px;
     padding-bottom: 20px;
   }
