@@ -8,8 +8,8 @@
 }
 
 .about-us {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .about-us-div-nophoto {
@@ -25,6 +25,7 @@
     font-size: 32px;
     line-height: 1.25;
     margin-bottom: 40px;
+    color: #1E2827;
 }
 
 .about-us-text-gap {
@@ -36,12 +37,14 @@
     font-size: 14px;
     line-height: 1.28;
     margin-bottom: 20px;
+    color: #141414;
 }
 
 .about-us-text-2 {
     font-weight: 300;
     font-size: 14px;
     line-height: 1.28;
+    color: #141414;
 }
 
 @media screen and (min-width: 768px) {
@@ -54,8 +57,8 @@
     }
 
     .about-us {
-        padding-top: 32px;
-        padding-bottom: 20px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
     .about-us-title {
@@ -137,7 +140,7 @@
     }
 
     .about-us {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
