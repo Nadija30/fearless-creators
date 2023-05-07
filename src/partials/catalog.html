@@ -1,8 +1,8 @@
-<section class="catalog">
+<section class="catalog" id="catalog">
   <div class="container">
     <h2 class="catalog__tittle">Catalog</h2>
     <ul class="catalog__list">
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img1-catalog.webp 1x, /img/catalog/img1-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img1-catalog.jpg 1x, /img/catalog/img1-catalog@2x.jpg 2x">
@@ -24,7 +24,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img2-catalog.webp 1x, /img/catalog/img2-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img2-catalog.jpg 1x, /img/catalog/img2-catalog@2x.jpg 2x">
@@ -46,7 +46,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img3-catalog.webp 1x, /img/catalog/img3-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img3-catalog.jpg 1x, /img/catalog/img3-catalog@2x.jpg 2x">
@@ -68,7 +68,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img4-catalog.webp 1x, /img/catalog/img4-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img4-catalog.jpg 1x, /img/catalog/img4-catalog@2x.jpg 2x">
@@ -90,7 +90,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img5-catalog.webp 1x, /img/catalog/img5-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img5-catalog.jpg 1x, /img/catalog/img5-catalog@2x.jpg 2x">
@@ -112,7 +112,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img6-catalog.webp 1x, /img/catalog/img6-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img6-catalog.jpg 1x, /img/catalog/img6-catalog@2x.jpg 2x">
@@ -134,7 +134,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img7-catalog.webp 1x, /img/catalog/img7-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img7-catalog.jpg 1x, /img/catalog/img7-catalog@2x.jpg 2x">
@@ -156,7 +156,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img8-catalog.webp 1x, /img/catalog/img8-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img8-catalog.jpg 1x, /img/catalog/img8-catalog@2x.jpg 2x">
@@ -178,7 +178,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img9-catalog.webp 1x, /img/catalog/img9-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img9-catalog.jpg 1x, /img/catalog/img9-catalog@2x.jpg 2x">
@@ -200,7 +200,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img10-catalog.webp 1x, /img/catalog/img10-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img10-catalog.jpg 1x, /img/catalog/img10-catalog@2x.jpg 2x">
@@ -222,7 +222,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img11-catalog.webp 1x, /img/catalog/img11-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img11-catalog.jpg 1x, /img/catalog/img11-catalog@2x.jpg 2x">
@@ -244,7 +244,7 @@
             Band Colour: Steel</p>
         </div>
       </li>
-      <li class="catalog__list-item">
+      <li class="catalog__list-item" tabindex="0">
         <picture>
           <source srcset="/img/catalog/img12-catalog.webp 1x, /img/catalog/img12-catalog@2x.webp 2x" type="image/webp">
           <source srcset="/img/catalog/img12-catalog.jpg 1x, /img/catalog/img12-catalog@2x.jpg 2x">
@@ -270,9 +270,13 @@
     <button class="catalog__btn" data-modal-open>Buy now</button>
   </div>
 
-  <div class="catalog__backdrope" data-modal>
+  <div class="catalog__backdrope is-hidden" data-modal>
     <div class="catalog__modal">
-      <button class="catalog__modal-close" data-modal-close type="button">X</button>
+      <button class="catalog__modal-close" data-modal-close type="button">
+        <svg class="catalog__modal-close-svg">
+          <use href="../public/icons.svg#icon-close"></use>
+        </svg>
+      </button>
       
       <div class="catalog__modal-watch">
         <picture>
@@ -288,28 +292,28 @@
           <li class="catalog__form-list-item">
             <label class="catalog__form-list-sign">
               Full name
-              <input type="text" class="catalog__form-list-enter" required>
+              <input type="text" class="catalog__form-list-enter" required placeholder="Enter your full name">
             </label>
           </li>
 
           <li class="catalog__form-list-item">
             <label class="catalog__form-list-sign">
               Email
-              <input type="email" class="catalog__form-list-enter" required>
+              <input type="email" class="catalog__form-list-enter" required placeholder="Enter your email">
             </label>
           </li>
 
           <li class="catalog__form-list-item">
             <label class="catalog__form-list-sign">
               Card number
-              <input type="number" class="catalog__form-list-enter" required>
+              <input type="number" class="catalog__form-list-enter" required placeholder="Enter card">
             </label>
           </li>
 
           <li class="catalog__form-list-item">
             <label class="catalog__form-list-sign">
               Comments
-              <textarea  class="catalog__form-list-message"></textarea>
+              <textarea  class="catalog__form-list-message" placeholder="Enter your text"></textarea>
             </label>
           </li>
         </ul>
