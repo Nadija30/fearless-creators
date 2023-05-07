@@ -17,7 +17,6 @@
 }
 
 .header-logo {
-    outline: 1px solid green;
     display: flex;
     align-items: center;
     gap: 4px;
@@ -25,13 +24,9 @@
 
 .header-logo-link {
     display: inline-block;
-    width: 19px;
-    height: 19px;
-}
-
-.logo-img {
-    width: 19px;
-    height: 19px;
+    padding: 0;
+    width: 14px;
+    height: 14px;
 }
 
 .header-logo-text {
@@ -176,6 +171,11 @@
         text-transform: uppercase;
         color: #FFFFFF;
 
+    }
+
+    .header-logo-link {
+        width: 19px;
+        height: 19px;
     }
 
     .header-list {
