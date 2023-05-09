@@ -73,9 +73,13 @@
   height: 42px;
   display: block;
   margin-left: auto;
+  transition: scale 250ms ease-out;
 }
 
-
+.catalog__btn:hover,
+.catalog__btn:focus {
+  transform: scale(1.1);
+}
 
 .catalog__list-item:hover .catalog__overlay,
 .catalog__list-item:focus .catalog__overlay {
@@ -96,7 +100,7 @@
   top: 0;
   left: 0;  
   transform: translateY(102%);  
-  transition: transform 250ms ease-out;
+  transition: transform 250ms ease-out 150ms;
   
 }
 
