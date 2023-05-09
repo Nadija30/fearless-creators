@@ -269,51 +269,7 @@
 }
 
 
-@media screen and (max-height: 815px) and (max-width: 767px) {
-  .catalog__modal picture {
-    display: none;
-  }
 
-  .catalog__modal {
-    height: 85vh;
-    padding: 40px 20px;
-  }
-
-  .catalog__form-list-message {
-    height: 50px;
-    margin-bottom: 30px;
-  }
-
-  .catalog__modal-watch {
-    display: none;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  .catalog__modal-post-text {
-    display: none;
-  }
-
-  .catalog__modal {
-    height: 98vh;
-    padding: 20px;
-  }
-
-  .catalog__form-list-message {
-    height: 50px;
-    margin-bottom: 0;
-  }
-
-  .catalog__modal-watch {
-    display: none;
-  }
-}
-
-@media screen and (max-height: 565px) {
-  .catalog__modal-post-text {
-    display: none;
-  }
-}
 
 
 
@@ -413,5 +369,100 @@
     min-width: 904px;
     width: 100%;
     
+  }
+}
+
+@media screen and (max-height: 815px) and (max-width: 767px) and (orientation: portrait) {
+  .catalog__modal-watch {
+    display: none;
+  }
+
+  .catalog__modal {
+    height: 85vh;
+    padding: 40px 20px;
+  }
+
+  .catalog__form-list-message {
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .catalog__modal-watch {
+    display: none;
+  }
+}
+
+@media screen and (min-height: 280px) and (max-width: 815px) and (orientation: landscape) {
+  .catalog__modal-post-text {
+    display: none;
+  }
+
+  .catalog__modal {
+    height: 98vh;
+    padding: 20px 40px;
+    width: 45vw;
+  }
+
+  .catalog__form-list-message {
+    height: 50px;
+    margin-bottom: 0;
+  }
+
+  .catalog__modal-watch {
+    display: none;
+  }
+
+  .catalog__form-span {
+    display: none;
+  }
+
+  .catalog__modal-close {
+    right: 5px;
+  }
+
+  .catalog__form-list-item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  .catalog__form-list-enter {
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 816px) and (max-height: 450px) and (orientation: landscape) {
+  .catalog__modal {
+    height: 98vh;
+    padding: 20px 40px;
+  }
+
+  .catalog__modal-watch {
+    display: block;
+
+  }
+
+  .catalog__list-img {
+    width: 150px;
+  }
+
+  .catalog__form-span {
+    display: none;
+  }
+
+  .catalog__modal-close {
+    right: 5px;
+  }
+
+  .catalog__form-list-item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+
+  .catalog__form-list-enter {
+    height: 32px;
+  }
+}
+
+@media screen and (max-height: 565px) {
+  .catalog__modal-post-text {
+    display: none;
   }
 }
