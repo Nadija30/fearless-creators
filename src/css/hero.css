@@ -71,6 +71,12 @@
     height: 252px;
     margin: 0 0 40px 0;
 }
+@media screen and (max-width:306px) {
+    .swiper {
+        width: 240px;
+        height: 232px;
+    }
+}
 @media screen and (min-width:768px) {
     .swiper {
         width: 436px;
@@ -90,6 +96,11 @@
     color: #FFFFFF;
     width: 74px;
     justify-content: space-between;
+}
+@media screen and (max-width:306px) {
+    .slider-number-box {
+        left: 164px;
+    }
 }
 @media screen and (min-width:768px) {
     .slider-number-box {
@@ -129,6 +140,11 @@
     width: calc(266px - 74px);
     background-color: #141414;
     z-index: 1;
+}
+@media screen and (max-width:306px) {
+    .slider-bacground-decor {
+        width: 162px;
+    }
 }
 @media screen and (min-width:768px) {
     .slider-bacground-decor {
@@ -211,11 +227,6 @@
     max-width: 100%;
 }
 
-@media (max-width: 335px) {
-    .hero-photo {
-        max-width: 260px;
-    }
-}
 @media screen and (min-width:1280px) {
     .hero-photo {
         margin-top: 43px;
