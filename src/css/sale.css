@@ -63,8 +63,7 @@
     text-decoration: line-through;
 }
 
-.sale__description,
-.sale__details {
+.sale__description-detals {
     margin-top: 48px;
     position: relative;
     font-weight: 400;
@@ -76,7 +75,7 @@
     margin-top: 28px;
 }
 
-.sale__description::before {
+.sale__description-detals::before {
     content: "";
     width: 100%;
     height: 1px;
@@ -86,27 +85,7 @@
     top: -8px;
 }
 
-.sale__description::after {
-    content: "";
-    width: 16px;
-    height: 1px;
-    background-color: #141414;
-    position: absolute;
-    top: 50%;
-    right: 0;
-}
-
-.sale__details::before{
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #141414;
-    position: absolute;
-    left: 0;
-    top: -8px;
-}
-
-.sale__details::after {
+.sale__description-detals::after {
     content: "";
     width: 16px;
     height: 1px;
